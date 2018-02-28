@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MainFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <Button
+            android:id="@+id/openbrowser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_browser"
+            app:layout_constraintBottom_toTopOf="@+id/opensecondfragment"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/opensecondfragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_second_fragment"
+            app:layout_constraintBottom_toTopOf="@+id/restartactivity"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/openbrowser" />
+
+        <Button
+            android:id="@+id/restartactivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restartactivity"
+            app:layout_constraintBottom_toTopOf="@+id/viewmedia"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/opensecondfragment" />
+
+        <Button
+            android:id="@+id/viewmedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_media"
+            app:layout_constraintBottom_toTopOf="@+id/sharefile"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/restartactivity" />
+
+        <Button
+            android:id="@+id/sharefile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/share_file"
+            app:layout_constraintBottom_toTopOf="@+id/shareallfiles"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewmedia" />
+
+        <Button
+            android:id="@+id/shareallfiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/share_all_files"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sharefile" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
