@@ -53,12 +53,19 @@ dependencies {
 	<version>V1.0</version>
 </dependency>
 ```
-### Example 1
+### Example
 
 ``` java
 GeneralFunctions generalFunctions = GeneralFunctions.getInstance();
 generalFunctions.openBrowser(context, ConstantVariables.URL);
 ```
+
+### Functions
+
+	1. Save, Read, Remove shared preference functions.
+	2. Fragment operations.
+	3. Directory, file operations.
+	4. View, Share files functions.
 
 ### LICENSE
 
