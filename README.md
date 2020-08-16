@@ -4,8 +4,6 @@ Android Library for general functions
 [![](https://jitpack.io/v/mathiazhagan01/AndroidGeneral.svg)](https://jitpack.io/#mathiazhagan01/AndroidGeneral)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AndroidGeneral-blue.svg?style=flat-square)](https://android-arsenal.com/details/1/5979)
 [![Codix](https://codix.io/gh/badge/mathiazhagan01/AndroidGeneral)](https://codix.io/gh/repo/mathiazhagan01/AndroidGeneral)
-[![](https://az743702.vo.msecnd.net/cdn/kofi4.png?v=b)](https://ko-fi.com/A8817MW)
-[![](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/@mathiazhagan01)
 
 If you like the library, please rate us on <a href="https://codix.io/gh/repo/mathiazhagan01/AndroidGeneral">codix.io!</a>
 
